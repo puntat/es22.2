@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+		<title>Prova</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+
+        <script type="text/javascript">
+
+        	$(document).ready(function(){
+
+        		$("#P").click(function(){
+
+        			$("#CT2").html($("#CT1").val());
+
+        		});
+
+        	});
+
+        </script>	
+    </head>
+    <body>
+
+        <input type="text" name="CT1" id="CT1" /><br>
+        <button name="P" id="P">Clicca</button><br>
+        <textarea name="CT2" id="CT2"></textarea>
+
+    </body>
+</html>
